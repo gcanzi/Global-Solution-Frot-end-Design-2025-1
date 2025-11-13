@@ -1,0 +1,1 @@
+# Global-Solution-Frot-end-Design-2025-1
