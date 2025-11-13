@@ -1,0 +1,144 @@
+.modal-fundo {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.modal-fundo.aberto {
+    display: flex;
+    opacity: 1;
+}
+
+.modal-janela {
+    background-color: #1B4332;
+    border: 1px solid rgba(149, 213, 178, 0.3);
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 1100px;
+    position: relative;
+    color: #FFFFFF;
+    transform: scale(0.95);
+    transition: transform 0.3s ease;
+}
+
+.modal-fundo.aberto .modal-janela {
+    transform: scale(1);
+}
+
+.modal-fechar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.modal-fechar:hover {
+    color: #FFFFFF;
+}
+
+.modal-cabecalho {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-bottom: 1px solid rgba(149, 213, 178, 0.2);
+    padding-bottom: 30px;
+}
+
+.modal-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid rgba(149, 213, 178, 0.5);
+}
+
+.modal-info h2 {
+    margin: 0 0 5px 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.modal-info p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+}
+
+.modal-botoes {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn-primario, .btn-secundario {
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-primario {
+    background-color: #95D5B2;
+    color: #1B4332;
+}
+.btn-primario:hover {
+    background-color: #FFF3B0;
+}
+
+.btn-secundario {
+    background-color: rgba(149, 213, 178, 0.15);
+    color: #FFFFFF;
+    border: 1px solid rgba(149, 213, 178, 0.3);
+}
+.btn-secundario:hover {
+    background-color: rgba(149, 213, 178, 0.3);
+}
+
+.modal-corpo {
+    padding-top: 25px;
+    padding-right: 20px;
+    max-height: 45vh; 
+    overflow-y: auto;
+}
+
+.modal-secao {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.modal-secao h3 {
+    color: #95D5B2;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal-secao p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 0 10px 0;
+    white-space: pre-line;
+}

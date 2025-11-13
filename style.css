@@ -32,6 +32,12 @@ header h1 {
     color: #FFF3B0;
     display: flex;
     align-items: center;
+    gap: 15px;
+}
+
+header h1 i {
+    color: #FFF3B0;
+    font-size: 50px;
 }
 
 main {
@@ -55,6 +61,11 @@ main h1:nth-of-type(2) {
     color: #95D5B2;
     margin-top: 10px;
     margin-bottom: 30px;
+    animation: fadeInUp 0.8s ease-out 0.3s backwards;
+}
+
+main h1:first-of-type {
+    animation: fadeInUp 0.8s ease-out 0.1s backwards;
 }
 
 main h2 {
@@ -63,6 +74,7 @@ main h2 {
     font-weight: 400;
     max-width: 700px;
     margin: 0;
+    animation: fadeInUp 0.8s ease-out 0.5s backwards;
 }
 
 .profissionais {
@@ -83,6 +95,7 @@ main h2 {
     border: 1px solid rgba(149, 213, 178, 0.3);
     margin-top: 100px;
     margin-bottom: 100px;
+    animation: fadeInUp 0.8s ease-out 0.7s backwards;
 }
 
 .titulo-secao h2 {
@@ -90,4 +103,26 @@ main h2 {
     font-size:20px;
     font-weight: 500;
     color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+.titulo-secao h2 i {
+    color: #95D5B2;
+    font-size: 1.2em;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
