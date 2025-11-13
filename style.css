@@ -1,0 +1,66 @@
+/*
+Paleta de Cores:
+Verde Escuro: #1B4332
+Verde Claro: #95D5B2
+Amarelo Claro: #FFF3B0
+Branco: #FFFFFF
+Laranja: #FF7F11
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #327257;
+    color: #FFFFFF;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1B4332;
+    padding: 20px 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF3B0;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding: 80px 40px;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 800;
+    line-height: 1;
+}
+
+main h1:nth-of-type(2) {
+    color: #95D5B2;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: #faf3ce;
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0;
+}
