@@ -113,6 +113,74 @@ main h2 {
     font-size: 1.2em;
 }
 
+#quiz {
+    background-color: rgba(68, 190, 153, 0.15);
+    border: 5px solid rgba(149, 213, 178, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 40px;
+    margin: 0 auto;
+    animation: fadeInUp 0.8s ease-out 0.3s backwards;
+}
+
+#quiz h2 {
+    font-size: 30px;
+    margin: 0%;
+
+}
+
+#quiz h3 {
+    background-color: rgba(0, 0, 0, 0.15);
+    border: 3px solid rgba(149, 213, 178, 0.3);
+    border-radius: 26px;
+    max-width: max-content;
+    padding: 1% 2% 1% 2%;
+}
+
+#quiz-topics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+#quiz-topics p {
+    background-color: rgba(198, 244, 247, 0.15);
+    border: 5px solid rgba(149, 213, 178, 0.3);
+    padding: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #faf3ce;
+}
+
+#quiz button:hover {
+    transform: scale(1.1);
+    background-color: rgba(149, 213, 178, 0.3);
+    cursor: pointer;
+}
+
+#quiz button {
+    background-color: rgba(149, 213, 178, 0.15);
+    border: 5px solid rgba(149, 213, 178, 0.3);
+    color: #faf3ce;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 6%;
+    padding: 7px;
+    max-width: 300px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icon {
+    width: 24px;
+    height: 20px;
+    margin-right: 12px;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;

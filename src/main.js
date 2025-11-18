@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Ana Silva Santos",
             cargo: "Desenvolvedora Full Stack",
-            foto: "./photos/AnaSilva.jpg",
+            foto: "./assets/photos/AnaSilva.jpg",
             formacao: "Graduação em Engenharia de Software pela USP. AWS Certified Cloud Practitioner.",
             sobre: "Desenvolvedora apaixonada por criar soluções web escaláveis e de alta performance. Focada em arquiteturas de microsserviços e práticas de código limpo.",
             experiencia: "5+ anos de experiência com React, Node.js e TypeScript. Sólidos conhecimentos em design de APIs RESTful e GraphQL. Experiência prática com deploy na AWS (EC2, S3, Lambda).",
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Bruno Mendes",
             cargo: "Engenheiro DevOps Sênior",
-            foto: "./photos/BrunoMendes.jpg",
+            foto: "./assets/photos/BrunoMendes.jpg",
             formacao: "Mestrado em Ciência da Computação pela UNICAMP. Certificação CKA (Certified Kubernetes Administrator).",
             sobre: "Especialista em automação de infraestrutura e otimização de pipelines de CI/CD. Foco em reduzir o tempo de deploy e aumentar a confiabilidade dos sistemas.",
             experiencia: "7 anos de experiência em infraestrutura como código (Terraform, Ansible). Gerenciamento avançado de clusters Kubernetes (GKE). Monitoramento com Prometheus e Grafana.",
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Camila Oliveira",
             cargo: "Arquiteta de Dados",
-            foto: "./photos/CamilaOliveira.jpg",
+            foto: "./assets/photos/CamilaOliveira.jpg",
             formacao: "Graduação em Estatística pela UFMG. Microsoft Certified: Azure Data Engineer Associate.",
             sobre: "Arquiteta de dados com foco em desenhar e implementar data lakes e data warehouses robustos. Experiência em modelagem de dados e governança.",
             experiencia: "Experiência em ecossistemas Big Data (Spark, Hadoop). Proficiente em Python e SQL para ETL. Criação de pipelines de dados complexos no Azure Data Factory e Databricks.",
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Rafael Costa",
             cargo: "Desenvolvedor Backend",
-            foto: "./photos/RafaelCosta.jpg",
+            foto: "./assets/photos/RafaelCosta.jpg",
             formacao: "Bacharel em Sistemas de Informação (FIAP).",
             sobre: "Desenvolvedor Backend especialista em microsserviços de alta concorrência. Focado em performance e baixa latência.",
             experiencia: "4 anos de experiência com Go (Golang) e gRPC. Criação de sistemas distribuídos e arquitetura serverless (AWS Lambda, Google Cloud Functions). Vasta experiência com bancos NoSQL (DynamoDB, MongoDB).",
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Juliana Almeida",
             cargo: "Especialista em Cibersegurança",
-            foto: "./photos/JulianaAlmeida.jpg",
+            foto: "./assets/photos/JulianaAlmeida.jpg",
             formacao: "Pós-graduação em Segurança da Informação (SENAC). Certificações CISSP e CEH.",
             sobre: "Especialista em segurança ofensiva (Red Team) e defensiva (Blue Team). Focada em identificar e mitigar vulnerabilidades em aplicações e infraestrutura.",
             experiencia: "Experiência em testes de invasão (Pentest) em aplicações web e mobile. Implementação e gerenciamento de ferramentas SIEM (Splunk). Análise de malwares e resposta a incidentes. Conhecimento em segurança de nuvem (AWS/Azure).",
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Lucas Ferreira",
             cargo: "Desenvolvedor Frontend Sênior",
-            foto: "./photos/LucasFerreira.jpg",
+            foto: "./assets/photos/LucasFerreira.jpg",
             formacao: "Design Digital pela Anhembi Morumbi.",
             sobre: "Frontend com um olhar apurado para design e experiência do usuário (UX). Especialista em criar interfaces interativas e acessíveis.",
             experiencia: "6 anos de experiência com o ecossistema React (Next.js, Remix). Otimização de performance (Core Web Vitals). Experiência com Design Systems e Storybook. Deploy em plataformas como Vercel e Netlify (incluindo AWS Amplify).",
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Gabriela Lima",
             cargo: "Site Reliability Engineer (SRE)",
-            foto: "./photos/GabrielaLima.jpg",
+            foto: "./assets/photos/GabrielaLima.jpg",
             formacao: "Engenharia de Computação (PUC-RJ).",
             sobre: "SRE focada em garantir a disponibilidade, performance e escalabilidade de sistemas críticos. Paixão por automação e observabilidade.",
             experiencia: "Experiência sólida em monitoramento (Prometheus, Grafana, ELK Stack). Automação de infraestrutura com Ansible e Puppet. Definição de SLOs/SLIs e gerenciamento de incidentes (on-call).",
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Tiago Martins",
             cargo: "Engenheiro de Machine Learning",
-            foto: "./photos/TiagoMartins.jpg",
+            foto: "./assets/photos/TiagoMartins.jpg",
             formacao: "Mestrado em Inteligência Artificial (ITA).",
             sobre: "Engenheiro de ML focado em colocar modelos de larga escala em produção (MLOps). Especialista em processamento de linguagem natural (NLP).",
             experiencia: "Desenvolvimento e deploy de modelos com TensorFlow e PyTorch. Experiência com o ecossistema AWS (SageMaker, S3). Otimização de modelos para inferência em tempo real. Criação de pipelines de MLOps.",
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Beatriz Sousa",
             cargo: "Product Manager (Tech)",
-            foto: "./photos/BeatrizSousa.jpg",
+            foto: "./assets/photos/BeatrizSousa.jpg",
             formacao: "Administração de Empresas (FGV). Certificação CSPO (Certified Scrum Product Owner).",
             sobre: "PM com background técnico, atuando como a ponte entre as necessidades de negócio e as equipes de engenharia. Focada em produtos SaaS B2B.",
             experiencia: "Criação e gerenciamento de roadmaps de produto. Definição de OKRs e KPIs. Condução de pesquisas com usuários e análise de concorrência. Experiência com metodologias ágeis (Scrum, Kanban). Sólido entendimento de arquitetura de Cloud (SaaS).",
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Felipe Nogueira",
             cargo: "Desenvolvedor Mobile",
-            foto: "./photos/FelipeNogueira.jpg",
+            foto: "./assets/photos/FelipeNogueira.jpg",
             formacao: "Tecnólogo em Jogos Digitais (FATEC).",
             sobre: "Desenvolvedor Mobile especialista em performance e animações fluidas. Foco em criar experiências nativas memoráveis.",
             experiencia: "5 anos de experiência com desenvolvimento nativo (Swift para iOS e Kotlin para Android). Experiência com arquiteturas modernas (MVVM, Clean Architecture). Integração com Firebase (Auth, Firestore, Cloud Functions).",
