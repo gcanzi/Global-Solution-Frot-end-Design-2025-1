@@ -243,7 +243,129 @@
             <p><img class="icon" src="./assets/icons/location_icon.png">Melhores cidades</p>
             <p><img class="icon" src="./assets/icons/tech_icon.png">Tecnologias ideais</p>
         </div>
-        <button><img class="icon" src="./assets/icons/star_icon.png">Começar o quiz</button>
+        <div class="quiz-question">
+            <div class="question-block">
+                <h3>1. Qual dessas áreas você mais se identifica?</h3>
+                <label>
+                    <input type="radio" name="q1" value="frontend">
+                    Desenvolvimento Frontend
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="backend">
+                    Desenvolvimento Backend
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="dados">
+                    Ciência / Engenharia de Dados
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="infra">
+                    DevOps / Cloud / Infraestrutura
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="produto">
+                    Gestão de Produtos
+                </label>
+            </div>
+
+            <div class="question-block">
+                <h3>2. Qual das habilidades abaixo você considera mais importante no mercado atual?</h3>
+                <label>
+                    <input type="radio" name="q2" value="agilidade">
+                    Capacidade de aprender rápido
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="colaboracao">
+                    Trabalho em equipe e comunicação
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="criatividade">
+                    Criatividade e inovação
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="resiliencia">
+                    Resiliência para resolver problemas
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="tecnico">
+                    Excelência técnica em uma área
+                </label>
+            </div>
+
+            <div class="question-block">
+                <h3>3. Qual ambiente de trabalho você prefere?</h3>
+                <label>
+                    <input type="radio" name="q3" value="startup">
+                    Startup ou empresa pequena
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="corporacao">
+                    Corporações grandes
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="remoto">
+                    Trabalho totalmente remoto
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="hibrido">
+                    Trabalho híbrido
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="freela">
+                    Freelancer / profissional independente
+                </label>
+            </div>
+
+            <div class="question-block">
+                <h3>4. Qual dessas tecnologias ou tendências você acha que terá maior impacto nos próximos anos?</h3>
+                <label>
+                    <input type="radio" name="q4" value="ia">
+                    Inteligência Artificial
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="cloud">
+                    Computação em Nuvem
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="cyber">
+                    Cibersegurança
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="devops">
+                    Automação e DevOps
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="blockchain">
+                    Blockchain e Web3
+                </label>
+            </div>
+
+            <div class="question-block">
+                <h3>5. Ao escolher uma cidade para trabalhar, o que pesa mais para você?</h3>
+                <label>
+                    <input type="radio" name="q5" value="salario">
+                    Altos salários
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="custovida">
+                    Custo de vida acessível
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="oportunidades">
+                    Número de oportunidades
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="qualidadevida">
+                    Qualidade de vida
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="remoto">
+                    Possibilidade de trabalhar 100% remoto
+                </label>
+            </div>
+
+            <button id="quiz-submit" onclick="location.reload()">Enviar Respostas</button>
+        </div>
 
     </div>
 
@@ -251,7 +373,7 @@
     <div class="footer-container">
         <div class="footer-column">
         <h3 class="footer-logo">Talent<span>Sync</span></h3>
-        <p>A maior comunidade de profissionais de tecnologia e programação do Brasil. Conectamos talentos às melhores oportunidades.</p>
+        <p>A maior comunidade de profissionais de tecnologia e programação do Brasil. Conectamos talentos às melhores oportunidades. Junte-se a agora mesmo!</p>
         <p class="footer-copyright">&copy; 2025 TalentSync. Todos os direitos reservados.</p>
         </div>
 
@@ -282,23 +404,22 @@
         <ul>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Eventos e Webinars</a></li>
-            <li><a href="#">Comunidade</a></li>
             <li><a href="#">Sobre Nós</a></li>
             <li><a href="#">Central de Ajuda</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
         </div>
 
-        <div class="footer-column social-column">
-        <h4>Siga-nos</h4>
-        <div class="social-icons">
-            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
-            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i>GitHub</a>
-            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i>Twitter</a>
-            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i>Instagram</a>
-            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i>Youtube</a>
+        <div class="footer-column">
+            <h4>Siga-nos</h4>
+            <ul>
+                <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i>LinkedIn</a></li>
+                <li><a href="#" aria-label="GitHub"><i class="fab fa-github"></i>GitHub</a></li>
+                <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i>Twitter</a></li>
+                <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i>Instagram</a></li>
+                <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i>Youtube</a></li>
+            </ul>
         </div>
-    </div>
     </footer>
 </body>
 </html> 

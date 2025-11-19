@@ -187,6 +187,14 @@ footer {
     margin-top: 8%;
 }
 
+footer h4 {
+    font-size: 26px;
+}
+
+footer a {
+    font-size: 24px;
+}
+
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -194,7 +202,50 @@ footer {
 
 .footer-logo {
     font-size: 40px;
-    margin-left: 3%;
+    margin-left: 12%;
+}
+
+.footer-column {
+    margin: 0 2% 0;
+}
+
+.footer-column:not(:first-child) {
+    margin-left: 4%;
+}
+
+.quiz-question label:hover {
+    color: #FFF3B0;
+    transform: translateX(5px);
+}
+
+.question-block label {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.question-block h3 {
+    font-size: 24px;
+}
+
+footer p {
+    max-width: 800px;
+    margin: 0 0 6% 15%;
+    font-size: 24px;
+}
+
+footer a {
+    font-size: 24px;
+    color: #95D5B2;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #FFF3B0;
+    text-decoration: underline;
 }
 
 @keyframes fadeInUp {
