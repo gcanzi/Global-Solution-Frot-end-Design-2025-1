@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             nome: "Ana Silva Santos",
             cargo: "Desenvolvedora Full Stack",
-            foto: "../src/assets/photos/AnaSilva.jpg",
+            foto: "./src/assets/photos/AnaSilva.jpg",
             formacao: "Graduação em Engenharia de Software pela USP. AWS Certified Cloud Practitioner.",
             sobre: "Desenvolvedora apaixonada por criar soluções web escaláveis e de alta performance. Focada em arquiteturas de microsserviços e práticas de código limpo.",
             experiencia: "5+ anos de experiência com React, Node.js e TypeScript. Sólidos conhecimentos em design de APIs RESTful e GraphQL. Experiência prática com deploy na AWS (EC2, S3, Lambda).",
