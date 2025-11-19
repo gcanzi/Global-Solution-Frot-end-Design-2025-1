@@ -54,7 +54,7 @@ JavaScript: Lógica de programação, manipulação da Array de dados simulados 
 
 Por ser um projeto puramente estático e hospedado via GitHub Pages, o acesso e visualização são extremamente simples:   
 
-🔗 [Clique aqui](https://wokwi.com/projects/447930763074494465)   
+🔗 [Clique aqui]()   
 
 Navegação: O site é intuitivo e pronto para uso em qualquer navegador moderno.
 
