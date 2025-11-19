@@ -54,7 +54,7 @@ JavaScript: Lógica de programação, manipulação da Array de dados simulados 
 
 Por ser um projeto puramente estático e hospedado via GitHub Pages, o acesso e visualização são extremamente simples:   
 
-🔗 [Clique aqui]()   
+🔗 [Clique aqui](https://gcanzi.github.io/Global-Solution-Frot-end-Design-2025-1/)   
 
 Navegação: O site é intuitivo e pronto para uso em qualquer navegador moderno.
 
@@ -78,7 +78,7 @@ src/
 
 ## 🧑🏻 Dados e Perfis
 
-O projeto utiliza uma Array JavaScript em main.js contendo pelo menos 10 perfis simulados, garantindo que a aplicação seja totalmente funcional e demonstre a manipulação de dados em tempo de execução.
+O projeto utiliza uma Array JavaScript em main.js contendo 10 perfis simulados, garantindo que a aplicação seja totalmente funcional e demonstrando a manipulação de dados em tempo de execução.
 
 ## 👥 Participantes
 
