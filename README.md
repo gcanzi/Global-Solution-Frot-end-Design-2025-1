@@ -89,4 +89,4 @@ O projeto utiliza uma Array JavaScript em main.js contendo 10 perfis simulados, 
 | Nome                           | RM       |
 | ------------------------------ | -------- |
 | **Gustavo Moretim Canzi**      | RM567683 |
-| **Lucca Ghiraldi Urso**        | RM556739 |
+| **Lucca Ghiraldi Urso**        | RM566739 |
