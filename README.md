@@ -63,17 +63,21 @@ Navegação: O site é intuitivo e pronto para uso em qualquer navegador moderno
 A estrutura de arquivos segue um padrão organizado:   
 
 ```
-src/
-├── assets/
-│   ├── icons/          
-│   └── photos/           
-├── styles/
-│   ├── cards.css         
-│   ├── perfis.css        
-│   └── style.css         
-├── index.html            
-├── main.js               
-└── README.md             
+│
+├── src/
+│   ├── assets/
+│   │   ├── icons/
+│   │   └── photos/
+│   │
+│   ├── styles/
+│   │   ├── cards.css
+│   │   ├── perfis.css
+│   │   └── style.css
+│   │
+│   └── main.js
+│
+├── index.html
+└── README.md         
 ```
 
 ## 🧑🏻 Dados e Perfis
